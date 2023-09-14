@@ -9,7 +9,6 @@
 
 ## 📖 About
 <p>Website to search for recipes to make, including step-by-step instructions. Made with react.</p>
-<p>API used: <a href="https://www.themealdb.com/api.php" target="_blank">TheMealDB</a></p>
 
 ---
 
@@ -19,6 +18,7 @@
 - Axios
 - SCSS
 - Javascript
+- FontAwesome
 
 ---
 
