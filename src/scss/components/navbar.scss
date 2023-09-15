@@ -3,4 +3,30 @@
   box-shadow: 0 3px 6px $fr-shadow;
   background-color: $fr-bg;
   color: $fr-text;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo{
+    font-size: 40px;
+    span{
+      color: $fr-pink;
+    }
+  }
+
+  &__links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+
+    a{
+      &:hover{
+        color: $fr-pink;
+        -webkit-transition: color .5s; /* For Safari 3.0 to 6.0 */
+        transition: color .5s; /* For modern browsers */
+      }
+    }
+  }
 }
