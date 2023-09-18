@@ -46,4 +46,30 @@
       }
     }
   }
+
+  &__sidebar-btn{
+    height: 28px;
+    width: 30px;
+    position: relative;
+    &__bar{
+      height: 6px;
+      width: 100%;
+      background-color: $fr-text;
+      position: absolute;
+      border-radius: 4px;
+      &:nth-child(1){
+        top: 0;
+      }
+      &:nth-child(2){
+        top: 50%;
+        transform-origin: right;
+        transform: scaleX(.8) translateY(-50%);
+      }
+      &:nth-child(3){
+        top: 100%;
+        transform-origin: right;
+        transform: scaleX(1.1) translateY(-100%);
+      }
+    }
+  }
 }

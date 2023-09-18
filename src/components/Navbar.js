@@ -9,6 +9,11 @@ export default function Navbar() {
         <a href="/recipes">Recipes</a>
         <a href="/settings">Settings</a>
       </div>
+      <div className="fr-navbar__sidebar-btn">
+        <div className="fr-navbar__sidebar-btn__bar"></div>
+        <div className="fr-navbar__sidebar-btn__bar"></div>
+        <div className="fr-navbar__sidebar-btn__bar"></div>
+      </div>
     </nav>
   )
 }
