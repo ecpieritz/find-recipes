@@ -71,5 +71,11 @@
         transform: scaleX(1.1) translateY(-100%);
       }
     }
+    &.active{
+      .bar{
+        transform-origin: center;
+        top: 50%;
+      }
+    }
   }
 }
