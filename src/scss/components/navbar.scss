@@ -45,6 +45,10 @@
         }
       }
     }
+
+    @media(max-width: 768px){
+      display: none;
+    }
   }
 
   &__sidebar-btn{
