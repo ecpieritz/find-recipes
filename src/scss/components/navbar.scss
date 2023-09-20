@@ -71,11 +71,20 @@
         transform: scaleX(1.1) translateY(-100%);
       }
     }
-    &.active{
-      .bar{
-        transform-origin: center;
-        top: 50%;
-      }
+  }
+}
+.active{
+  .fr-navbar__sidebar-btn__bar{
+    transform-origin: center;
+    top: 50%;
+    &:nth-child(1){
+      transform: translate(0, -50%) scale(1) rotate(45deg);
+    }
+    &:nth-child(2){
+      transform: scaleX(0) translateY(-50%);
+    }
+    &:nth-child(3){
+      transform: translate(0, -50%) scale(1) rotate(-45deg) ;
     }
   }
 }
