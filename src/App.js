@@ -1,9 +1,11 @@
 import Navbar from "./components/Navbar";
+import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
     <>
       <Navbar />
+      <Sidebar />
       <h1>It's Working</h1>
       <h2>It's Working</h2>
       <h3>It's Working</h3>
