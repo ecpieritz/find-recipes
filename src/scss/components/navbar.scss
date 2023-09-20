@@ -1,3 +1,7 @@
+@function getAnimationDuration($duration: number) {
+  @return calc($duration * $fr-animation-speed)
+}
+
 .fr-navbar{
   padding: 20px 10%;
   box-shadow: 0 3px 6px $fr-shadow;
@@ -56,6 +60,7 @@
       width: 100%;
       background-color: $fr-text;
       position: absolute;
+      transition: transform getAnimationDuration(.5s);
       border-radius: 4px;
       &:nth-child(1){
         top: 0;
