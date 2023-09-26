@@ -1,0 +1,10 @@
+.fr-sidebar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 250px;
+  background-color: $fr-bg;
+  box-shadow: 0 0 0 1000px rgba(0,0,0,.2),
+              3px 0 5px $fr-shadow;
+}
