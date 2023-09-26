@@ -1,4 +1,5 @@
 .fr-sidebar{
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -28,5 +29,12 @@
         width: 16px;
         margin-right: 10px;
       }
+  }
+
+  @media (max-width: 780px){
+    display: block;
+  }
+  @media (max-width: 468px){
+    width: 70%;
   }
 }
