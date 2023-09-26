@@ -7,4 +7,21 @@
   background-color: $fr-bg;
   box-shadow: 0 0 0 1000px rgba(0,0,0,.2),
               3px 0 5px $fr-shadow;
+  padding: 20px;
+  a{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+      &:hover{
+        color: $fr-pink;
+        -webkit-transition: color .5s; /* For Safari 3.0 to 6.0 */
+        transition: color .5s; /* For modern browsers */
+      }
+      &.active{
+        color: $fr-pink;
+        &:hover{
+          color: $fr-text;
+        }
+      }
+  }
 }
