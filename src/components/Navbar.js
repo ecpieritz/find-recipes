@@ -26,6 +26,11 @@ export default function Navbar() {
       icon: faCog
     },
   ]
+
+  function closeSidebar(){
+    setShowSidebar(false)
+  }
+
   return (
     <>
       <nav className="fr-navbar">
@@ -42,7 +47,7 @@ export default function Navbar() {
           <div className="fr-navbar__sidebar-btn__bar"></div>
         </div>
       </nav>
-      <Sidebar links={links} />
+      {showSidebar && <Sidebar close={closeSidebar} links={links} />}
     </>
   )
 }
