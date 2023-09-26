@@ -18,3 +18,15 @@ body{
     }
   }
 }
+
+.fr-btn{
+  padding: 10px 20px;
+  border-radius: 8px;
+  &.pink{
+    background: $fr-pink;
+    color: $fr-bg;
+    &:hover{
+      background: $fr-pink-dk;
+    }
+  }
+}
