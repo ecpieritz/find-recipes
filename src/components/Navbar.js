@@ -37,7 +37,7 @@ export default function Navbar() {
           <div className="fr-navbar__sidebar-btn__bar"></div>
         </div>
       </nav>
-      <Sidebar />
+      <Sidebar links={links} />
     </>
   )
 }
