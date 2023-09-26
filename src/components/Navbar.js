@@ -1,24 +1,29 @@
 import { useState } from "react"
 import Sidebar from "./Sidebar";
+import { faHome, faUtensils, faCog, faMugHot } from "@fortawesome/free-solid-svg-icons";
 
 export default function Navbar() {
   const [showSidebar, setShowSidebar] = useState(false)
   const links = [
     {
       name: 'Home',
-      path: '/'
+      path: '/',
+      icon: faHome
     },
     {
       name: 'About',
-      path: '/about'
+      path: '/about',
+      icon: faUtensils
     },
     {
       name: 'Recipes',
-      path: '/recipes'
+      path: '/recipes',
+      icon: faMugHot
     },
     {
       name: 'Settings',
-      path: '/settings'
+      path: '/settings',
+      icon: faCog
     },
   ]
   return (
