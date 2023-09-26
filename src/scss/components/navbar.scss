@@ -1,6 +1,4 @@
-@function getAnimationDuration($duration: number) {
-  @return calc($duration * $fr-animation-speed)
-}
+@import '../abstracts/index.scss';
 
 .fr-navbar{
   padding: 20px 10%;

@@ -1,0 +1,3 @@
+@function getAnimationDuration($duration: number) {
+  @return calc($duration * $fr-animation-speed)
+}

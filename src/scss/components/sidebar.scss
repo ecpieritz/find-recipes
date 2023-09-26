@@ -1,3 +1,5 @@
+@import '../abstracts/index.scss';
+
 .fr-sidebar{
   display: none;
   position: fixed;
@@ -8,22 +10,24 @@
   background-color: $fr-bg;
   box-shadow: 0 0 0 1000px rgba(0,0,0,.2),
               3px 0 5px $fr-shadow;
+  animation: getAnimationDuration(.5s) slideInLeft;
   padding: 15px;
   &__link{
     display: block;
     text-transform: uppercase;
     padding: 5px;
+    animation: getAnimationDuration(.5s) slideInLeft;
+    &:hover{
+      color: $fr-pink;
+      -webkit-transition: color .5s; /* For Safari 3.0 to 6.0 */
+      transition: color .5s; /* For modern browsers */
+    }
+    &.active{
+      color: $fr-pink;
       &:hover{
-        color: $fr-pink;
-        -webkit-transition: color .5s; /* For Safari 3.0 to 6.0 */
-        transition: color .5s; /* For modern browsers */
+        color: $fr-text;
       }
-      &.active{
-        color: $fr-pink;
-        &:hover{
-          color: $fr-text;
-        }
-      }
+    }
 
       svg{
         width: 16px;
