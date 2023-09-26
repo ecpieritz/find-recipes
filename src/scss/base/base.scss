@@ -1,3 +1,20 @@
 body{
   background-color: $fr-bg;
 }
+
+.fr-main{
+  padding-block: 3vw;
+}
+
+.section{
+  display: flex;
+  flex-direction: row;
+  .col{
+    width: 50%;
+  }
+  @media (max-width: 468px){
+    .col{
+      width: 100%;
+    }
+  }
+}
