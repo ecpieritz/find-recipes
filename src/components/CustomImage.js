@@ -1,9 +1,11 @@
 import React from 'react'
 
-export default function CustomImage() {
+export default function CustomImage({imgSrc, pt}) {
   return (
-    <div>
-      img
+    <div className='fr-custom-image'
+      style={{paddingTop: pt}}
+    >
+      <img src={imgSrc} alt="Foodies" />
     </div>
   )
 }
