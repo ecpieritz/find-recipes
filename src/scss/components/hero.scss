@@ -5,4 +5,18 @@
   p{
     margin: 20px 0 40px;
   }
+
+  &__texts{
+    padding-right: 20px;
+  }
+  &__gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 95%;
+    right: 0;
+    @media (max-width: 468px){
+      margin-top: 50px;
+    }
+  }
 }
