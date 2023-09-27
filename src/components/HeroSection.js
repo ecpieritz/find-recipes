@@ -1,4 +1,5 @@
 import React from 'react'
+import CustomImage from './CustomImage'
 
 export default function HeroSection() {
   return (
@@ -8,7 +9,9 @@ export default function HeroSection() {
         <p>Your Gateway to Culinary Creativity! Explore a World of Flavors, One Recipe at a Time. Unleash Your Inner Chef and Elevate Home Cooking. Join Us on a Gastronomic Journey Today!</p>
         <a className='fr-btn pink' href="/recipes">Explore Now</a>
       </div>
-      <div className='col'>col 2</div>
+      <div className='col'>
+        <CustomImage />
+      </div>
     </div>
   )
 }
