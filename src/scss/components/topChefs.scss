@@ -1,0 +1,25 @@
+.fr-chefs{
+  &__img{
+    width: 100%;
+    height: 100%;
+  }
+
+  &__texts{
+    position: relative;
+    margin-top: -80px;
+    margin-bottom: 60px;
+    background-color: $fr-bg;
+    border: 2px solid $fr-bg;
+    width: 50%;
+    padding: 10px;
+
+    &__name{
+      font-weight: 700;
+    }
+    &__local{
+      font-style: italic;
+      line-height: 1;
+      color: $fr-text-lg;
+    }
+  }
+}
