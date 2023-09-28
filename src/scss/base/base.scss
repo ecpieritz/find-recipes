@@ -15,6 +15,7 @@ body{
   flex-direction: row;
   max-width: 1200px;
   margin: auto;
+  margin-bottom: 80px;
   .col{
     width: 50%;
   }
@@ -38,5 +39,24 @@ body{
     &:hover{
       background: $fr-pink-dk;
     }
+  }
+}
+
+.fr-list{
+  &__pink{
+    list-style: none;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    li{
+      &::before{
+        content: "|";  
+        font-weight: bold; 
+        display: inline-block; 
+        width: 1em;
+        margin-left: -1em;
+        color: $fr-pink;
+      }
+    }
+    
   }
 }
