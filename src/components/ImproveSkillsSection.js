@@ -1,6 +1,13 @@
 import React from 'react'
 
 function ImproveSkillsSection() {
+  const list = [
+    'Learn new recipes',
+    'Experiment with food',
+    'Know nutrition facts',
+    'Get cooking tips',
+    'Get ranked',
+  ]
   return (
     <div className='fr-improve section'>
       <div className='col fr-improve__img'>
@@ -10,11 +17,9 @@ function ImproveSkillsSection() {
         <h1>Improve Your Skills</h1>
 
         <ul className='fr-list__pink'>
-          <li>Learn new recipes</li>
-          <li>Experiment with food</li>
-          <li>Know nutrition facts</li>
-          <li>Get cooking tips</li>
-          <li>Get ranked</li>
+          {list.map((item, index) =>(
+            <li key={index}>{item}</li>
+          ))}
         </ul>
 
         <a className='fr-btn pink' href="/recipes">Signup Now</a>
