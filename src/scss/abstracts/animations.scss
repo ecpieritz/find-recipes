@@ -7,11 +7,13 @@
   }
 }
 
-@keyframes slideOutLeft {
+@keyframes popOut {
   from{ 
-    transform: translateX(0);
+    transform: scale(0);
+    opacity: 0;
   }
   to{ 
-    transform: translateX(-100%);
+    transform: scale(1);
+    opacity: 1;
   }
 }
