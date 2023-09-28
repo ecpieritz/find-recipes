@@ -1,7 +1,7 @@
 import React from 'react'
 import CustomImage from './CustomImage'
 
-export default function HeroSection() {
+function HeroSection() {
   const images = [
     './img/gallery/fr-img_1.jpg',
     './img/gallery/fr-img_2.jpg',
@@ -28,3 +28,5 @@ export default function HeroSection() {
     </div>
   )
 }
+
+export default HeroSection

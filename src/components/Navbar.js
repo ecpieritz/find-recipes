@@ -1,8 +1,8 @@
-import { useState } from "react"
+import React, { useState } from "react"
 import Sidebar from "./Sidebar";
 import { faHome, faUtensils, faCog, faMugHot } from "@fortawesome/free-solid-svg-icons";
 
-export default function Navbar() {
+function Navbar() {
   const [showSidebar, setShowSidebar] = useState(false)
   const links = [
     {
@@ -26,11 +26,9 @@ export default function Navbar() {
       icon: faCog
     },
   ]
-
   function closeSidebar(){
     setShowSidebar(false)
   }
-
   return (
     <>
       <nav className="fr-navbar">
@@ -51,3 +49,5 @@ export default function Navbar() {
     </>
   )
 }
+
+export default Navbar
