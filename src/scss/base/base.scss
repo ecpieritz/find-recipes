@@ -19,8 +19,11 @@ body{
   .col{
     width: 50%;
   }
+  @media (max-width: 1060px){
+    max-width: 90%;
+  }
   @media (max-width: 768px){
-    padding: 0 20px;
+    max-width: 95%;
   }
   @media (max-width: 468px){
     flex-direction: column;
