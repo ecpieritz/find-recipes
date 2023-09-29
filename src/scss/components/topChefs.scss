@@ -6,7 +6,7 @@
 
   &__texts{
     position: relative;
-    margin-top: -80px;
+    margin-top: -120px;
     margin-bottom: 60px;
     background-color: $fr-bg;
     border: 2px solid $fr-bg;
@@ -20,6 +20,28 @@
       font-style: italic;
       line-height: 1;
       color: $fr-text-lg;
+    }
+    &__socials{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 10px;
+
+      a{
+        svg{
+          width: 25px;
+          height: 25px;
+          color: $fr-pink;
+        }
+        
+        &:hover{
+          svg{
+            color: $fr-pink-dk;
+          }
+        }
+      }
     }
   }
 }
