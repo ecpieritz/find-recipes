@@ -59,8 +59,8 @@ function TopChefsSection() {
       <Carousel autoPlay>
         {
           chefs.map((item, index) => (
-            <div className='fr-chefs__img'>
-              <img key={index} alt="" src={item.link} />
+            <div key={index} className='fr-chefs__img'>
+              <img alt="" src={item.link} />
               <div className='fr-chefs__texts'>
               <p className='fr-chefs__texts__name'>{item.name}</p>
               <p className='fr-chefs__texts__local'>{item.local}</p>
