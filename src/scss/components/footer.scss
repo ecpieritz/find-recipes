@@ -1,0 +1,53 @@
+.fr-footer{
+  background-color: $fr-text;
+  color: $fr-bg;
+  padding: 20px 0;
+  .section{
+    margin-bottom: 0;
+  }
+  h3{
+    margin-bottom: 20px;
+  }
+  p{
+    font-size: 16px;
+  }
+  &__find{
+    &__logo{
+      font-size: 3rem;
+      font-weight: 600;
+      color: $fr-pink;
+      span{
+        color: $fr-bg;
+      }
+    }
+  }
+  &__contact{
+    text-align: center;
+    padding: 0 20px;
+  }
+  &__socials{
+    text-align: center;
+    div{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 10px;
+
+      a{
+        svg{
+          width: 50px;
+          height: 50px;
+          color: $fr-pink;
+        }
+        
+        &:hover{
+          svg{
+            color: $fr-pink-dk;
+          }
+        }
+      }
+    }
+  }
+}
