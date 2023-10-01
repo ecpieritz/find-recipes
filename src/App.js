@@ -3,6 +3,7 @@ import ImproveSkillsSection from "./components/ImproveSkillsSection";
 import Navbar from "./components/Navbar";
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import TopChefsSection from "./components/TopChefsSection";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <ImproveSkillsSection />
         <TopChefsSection />
       </div>
+      <Footer />
     </>
   );
 }
