@@ -7,4 +7,12 @@
     background-size:cover;
     background-position: center;
   }
+
+  &__text{
+    margin-top: 60px;
+    p{
+      margin-bottom: 15px;
+      text-align: center;
+    }
+  }
 }
