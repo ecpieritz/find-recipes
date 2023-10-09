@@ -5,11 +5,11 @@ import TopChefsSection from "../components/TopChefsSection";
 
 function Home() {
   return (
-    <div>
+    <>
       <HeroSection />
       <ImproveSkillsSection />
       <TopChefsSection />
-    </div>
+    </>
   )
 }
 
