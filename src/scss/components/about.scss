@@ -1,18 +1,38 @@
-.fr-about{
-  &__hero{
+.fr-about {
+  &__hero {
     margin-top: -3vw !important;
     width: 100%;
     background-image: url('../../../public/img/fr-about__hero.jpg');
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     background-position: center;
   }
 
-  &__text{
+  &__text {
     margin-top: 60px;
-    p{
+
+    p {
       margin-bottom: 15px;
       text-align: center;
     }
+
+    .col{
+      margin-right: 40px;
+      margin-top: 40px;
+    }
+
+
+    &__foods{
+      display: flex;
+      flex-direction:column;
+      max-width: 100%;
+      gap: 10px;
+      img {
+        width: 95%;
+        border-radius: 6px;
+      }
+    }
+
+
   }
 }
