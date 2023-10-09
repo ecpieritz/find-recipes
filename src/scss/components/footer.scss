@@ -11,6 +11,7 @@
   p{
     font-size: 16px;
   }
+
   &__find{
     &__logo{
       font-size: 3rem;
@@ -45,6 +46,25 @@
         &:hover{
           svg{
             color: $fr-pink-dk;
+          }
+        }
+      }
+    }
+  }
+  @media(max-width: 768px){
+    .section{
+      width: 100%;
+    }
+  }
+  @media(max-width: 468px){
+    .section{
+      .col{
+        margin-bottom: 40px;
+        h3{
+          margin-bottom: 10px;
+          .fr-footer__find__logo{
+            display: flex;
+            justify-content: center;
           }
         }
       }
