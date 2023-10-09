@@ -1,7 +1,7 @@
 import React from 'react'
-import HeroSection from "../components/HeroSection";
-import ImproveSkillsSection from "../components/ImproveSkillsSection";
-import TopChefsSection from "../components/TopChefsSection";
+import HeroSection from "../components/home/HeroSection";
+import ImproveSkillsSection from "../components/home/ImproveSkillsSection";
+import TopChefsSection from "../components/home/TopChefsSection";
 
 function Home() {
   return (
