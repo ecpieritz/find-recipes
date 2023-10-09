@@ -75,4 +75,16 @@ body{
     text-align: center;
   }
 
+  @media (max-width: 1060px){
+    padding: 380px 0 20px;
+  }
+  @media (max-width: 768px){
+    padding: 280px 0 20px;
+  }
+  @media (max-width: 468px){
+    padding: 250px 0 20px;
+    h1{
+      padding: 10px 40px;
+    }
+  }
 }
