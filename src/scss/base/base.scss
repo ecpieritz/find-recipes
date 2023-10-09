@@ -19,6 +19,9 @@ body{
   .col{
     width: 50%;
   }
+  .col-25{
+    width: 25%;
+  }
   @media (max-width: 1060px){
     max-width: 90%;
   }
