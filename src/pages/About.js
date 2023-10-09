@@ -1,9 +1,10 @@
 import React from 'react'
+import HeroSection from '../components/about/HeroSection'
 
 function About() {
   return (
     <>
-      About
+      <HeroSection />
     </>
   )
 }
