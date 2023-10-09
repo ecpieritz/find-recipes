@@ -32,9 +32,9 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="container fr-main">
+      <main className="container fr-main">
         <RouterProvider router={router} />
-      </div>
+      </main>
       <Footer />
     </>
   );
