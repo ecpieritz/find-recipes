@@ -63,3 +63,16 @@ body{
     
   }
 }
+
+.fr-hero-section__title{
+  width:fit-content;
+  max-width: 1200px;
+  margin: auto;
+  padding: 580px 0 20px;
+  h1{
+    padding: 10px 80px;
+    background-color: $fr-bg;
+    text-align: center;
+  }
+
+}

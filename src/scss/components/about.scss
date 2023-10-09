@@ -1,0 +1,10 @@
+.fr-about{
+  &__hero{
+    margin-top: -3vw !important;
+    width: 100%;
+    background-image: url('../../../public/img/fr-about__hero.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+  }
+}
