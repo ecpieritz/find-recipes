@@ -1,18 +1,39 @@
-import HeroSection from "./components/HeroSection";
-import ImproveSkillsSection from "./components/ImproveSkillsSection";
-import Navbar from "./components/Navbar";
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import TopChefsSection from "./components/TopChefsSection";
+import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Recipes from "./pages/Recipes";
+import Settings from "./pages/Settings";
 
 function App() {
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Home />,
+    },
+    {
+      path: "/about",
+      element: <About />,
+    },
+    {
+      path: "/recipes",
+      element: <Recipes />,
+    },
+    {
+      path: "/settings",
+      element: <Settings />,
+    },
+  ]);
   return (
     <>
       <Navbar />
       <div className="container fr-main">
-        <HeroSection />
-        <ImproveSkillsSection />
-        <TopChefsSection />
+        <RouterProvider router={router} />
       </div>
       <Footer />
     </>
