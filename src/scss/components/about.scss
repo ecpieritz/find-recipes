@@ -21,7 +21,6 @@
       margin-top: 40px;
     }
 
-
     &__foods{
       display: flex;
       flex-direction:column;
@@ -31,8 +30,18 @@
         width: 95%;
         border-radius: 6px;
       }
+      @media(max-width: 768px){
+        display: flex;
+        flex-direction: row;
+      }
     }
 
-
+    @media(max-width: 768px){
+      display: flex;
+      flex-direction: column;
+      .col-25, .col{
+        width: 100%;
+      }
+    }
   }
 }
