@@ -17,7 +17,7 @@ function PreviousSearches() {
       <h2>Previous Searches</h2>
       <div className='fr-recipes__previous-searches__container'>
         {searches.map(search =>(
-          <p>{search}</p>
+          <div className='fr-recipes__previous-searches__container__item'><p>{search}</p></div>
         ))}
       </div>
     </div>
