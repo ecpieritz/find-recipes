@@ -2,7 +2,7 @@
   &__previous-searches{
     flex-direction: column;
     &__container{
-      margin: 10px 0 40px;
+      margin: 10px 0 20px;
       &__item{
         display: inline-block;
         width: fit-content;
@@ -12,6 +12,34 @@
         border-radius: 30px;
         margin: 0 10px 10px 0;
         box-shadow: 0 3px 6px $fr-shadow;
+      }
+    }
+    &__box{
+      display: flex;
+      justify-content: end;
+      margin-bottom: 40px;
+      input{
+        padding: 5px 10px;
+        border: none;
+        border-bottom-left-radius: 8px;
+        border-top-left-radius: 8px;
+        box-shadow: 0 3px 6px $fr-shadow;
+        outline: none;
+        width: 40%;
+      }
+      &__btn{
+        border: none;
+        padding: 5px 10px;
+        background-color: $fr-pink;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        box-shadow: 0 3px 6px $fr-shadow;
+        svg{
+          color: $fr-bg;
+        }
+        &:hover{
+          background-color: $fr-pink-dk;
+        }
       }
     }
   }
