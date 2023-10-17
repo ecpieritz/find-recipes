@@ -54,6 +54,13 @@
   @media(max-width: 768px){
     .section{
       width: 100%;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      .col{
+        width: 100%;
+        margin-bottom: 20px;
+      }
     }
   }
   @media(max-width: 468px){
