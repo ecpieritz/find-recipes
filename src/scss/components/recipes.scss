@@ -41,6 +41,16 @@
           background-color: $fr-pink-dk;
         }
       }
+      @media(max-width: 768px){
+        input{
+          width: 60%;
+        }
+      }
+      @media(max-width: 468px){
+        input{
+          width: 80%;
+        }
+      }
     }
   }
 }
