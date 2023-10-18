@@ -20,7 +20,18 @@ function Settings() {
       <h2>Primary color</h2>
       <div className="fr-settings__options-container">
         <div className="fr-settings__options-container__option">
-
+          <div className="check pink">
+            <FontAwesomeIcon icon={faCheck} />
+          </div>
+          <div className="check blue">
+            <FontAwesomeIcon icon={faCheck} />
+          </div>
+          <div className="check yellow">
+            <FontAwesomeIcon icon={faCheck} />
+          </div>
+          <div className="check green">
+            <FontAwesomeIcon icon={faCheck} />
+          </div>
         </div>
       </div>
       <h2>Font-size</h2>
