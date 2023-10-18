@@ -40,10 +40,10 @@ body{
   padding: 10px 20px;
   border-radius: 8px;
   &.pink{
-    background: $fr-pink;
+    background: $fr-primary;
     color: $fr-bg;
     &:hover{
-      background: $fr-pink-dk;
+      background: $fr-primary-dk;
     }
   }
 }
@@ -60,7 +60,7 @@ body{
         display: inline-block; 
         width: 1em;
         margin-left: -1em;
-        color: $fr-pink;
+        color: $fr-primary;
       }
     }
     

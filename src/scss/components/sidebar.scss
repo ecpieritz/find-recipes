@@ -18,12 +18,12 @@
     padding: 5px;
     animation: getAnimationDuration(.5s) slideInLeft;
     &:hover{
-      color: $fr-pink;
+      color: $fr-primary;
       -webkit-transition: color .5s; /* For Safari 3.0 to 6.0 */
       transition: color .5s; /* For modern browsers */
     }
     &.active{
-      color: $fr-pink;
+      color: $fr-primary;
       &:hover{
         color: $fr-text;
       }

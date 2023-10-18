@@ -6,7 +6,7 @@
       &__item{
         display: inline-block;
         width: fit-content;
-        background-color: $fr-pink;
+        background-color: $fr-primary;
         color: $fr-bg;
         padding: 10px 20px;
         border-radius: 30px;
@@ -30,7 +30,7 @@
       &__btn{
         border: none;
         padding: 5px 10px;
-        background-color: $fr-pink;
+        background-color: $fr-primary;
         border-top-right-radius: 8px;
         border-bottom-right-radius: 8px;
         box-shadow: 0 3px 6px $fr-shadow;
@@ -38,7 +38,7 @@
           color: $fr-bg;
         }
         &:hover{
-          background-color: $fr-pink-dk;
+          background-color: $fr-primary-dk;
         }
       }
       @media(max-width: 768px){
@@ -76,11 +76,11 @@
           margin: 10px 0;
         }
         a{
-          color: $fr-pink;
+          color: $fr-primary;
           font-weight: 600;
           font-size: 16px;
           &:hover{
-            color: $fr-pink-dk;
+            color: $fr-primary-dk;
           }
         }
       }
