@@ -34,12 +34,6 @@ function Settings() {
           </div>
         </div>
       </div>
-      <h2>Font-size</h2>
-      <div className="fr-settings__options-container">
-        <div className="fr-settings__options-container__option">
-
-        </div>
-      </div>
     </div>
   );
 }
