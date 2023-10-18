@@ -1,5 +1,14 @@
-.fr-settings{
-    &.section{
-        flex-direction: column;
-    }
+.fr-settings {
+  &.section {
+    flex-direction: column;
+  }
+
+  &__options-container {
+    padding: 20px;
+    background-color: $fr-bg-lg;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 6px $fr-shadow;
+    border-left: 8px solid $fr-primary;
+  }
 }
