@@ -1,3 +1,5 @@
 .fr-settings{
-    
+    &.section{
+        flex-direction: column;
+    }
 }
