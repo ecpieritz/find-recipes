@@ -14,18 +14,19 @@
     flex-direction: row;
     gap: 15px;
 
-    &__option{
+    &__option {
       display: flex;
       flex-direction: row;
       justify-content: center;
       width: 40px;
       height: 40px;
       border-radius: 6px;
-      
-      .check{
+
+      .check {
         display: flex;
         align-items: center;
-        svg{
+
+        svg {
           background-color: $fr-primary;
           width: 15px;
           height: 15px;
@@ -33,22 +34,28 @@
           border-radius: 50%;
         }
       }
-      &.light{
+
+      &.light {
         background-color: $fr-light;
       }
-      &.dark{
+
+      &.dark {
         background-color: $fr-dark;
       }
-      &.pink{
+
+      &.pink {
         background-color: $fr-pink;
       }
-      &.blue{
+
+      &.blue {
         background-color: $fr-blue;
       }
-      &.yellow{
+
+      &.yellow {
         background-color: $fr-yellow;
       }
-      &.green{
+
+      &.green {
         background-color: $fr-green;
       }
     }
