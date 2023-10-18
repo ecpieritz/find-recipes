@@ -7,29 +7,36 @@ function Settings() {
     <div className="fr-settings section">
       <h2>Preferred theme</h2>
       <div className="fr-settings__options-container">
-        <div className="fr-settings__options-container__option">
-          <div className="check light">
+        <div className="fr-settings__options-container__option light">
+          <div className="check ">
             <FontAwesomeIcon icon={faCheck} />
           </div>
-          <div className="check dark">
+        </div>
+        <div className="fr-settings__options-container__option dark">
+          <div className="check">
             <FontAwesomeIcon icon={faCheck} />
           </div>
-
         </div>
       </div>
       <h2>Primary color</h2>
       <div className="fr-settings__options-container">
-        <div className="fr-settings__options-container__option">
-          <div className="check pink">
+        <div className="fr-settings__options-container__option pink">
+          <div className="check">
             <FontAwesomeIcon icon={faCheck} />
           </div>
-          <div className="check blue">
+        </div>
+        <div className="fr-settings__options-container__option blue">
+          <div className="check">
             <FontAwesomeIcon icon={faCheck} />
           </div>
-          <div className="check yellow">
+        </div>
+        <div className="fr-settings__options-container__option yellow">
+          <div className="check">
             <FontAwesomeIcon icon={faCheck} />
           </div>
-          <div className="check green">
+        </div>
+        <div className="fr-settings__options-container__option green">
+          <div className="check">
             <FontAwesomeIcon icon={faCheck} />
           </div>
         </div>

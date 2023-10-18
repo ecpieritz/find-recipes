@@ -10,20 +10,21 @@
     margin-bottom: 20px;
     box-shadow: 0 3px 6px $fr-shadow;
     border-left: 8px solid $fr-primary;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
 
     &__option{
       display: flex;
       flex-direction: row;
-      gap: 15px;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 6px;
       
       .check{
         display: flex;
-        flex-direction: row;
-        justify-content: center;
         align-items: center;
-        width: 40px;
-        height: 40px;
-        border-radius: 6px;
         svg{
           background-color: $fr-primary;
           width: 15px;
@@ -31,25 +32,24 @@
           padding: 3px;
           border-radius: 50%;
         }
-
-        &.light{
-          background-color: $fr-light;
-        }
-        &.dark{
-          background-color: $fr-dark;
-        }
-        &.pink{
-          background-color: $fr-pink;
-        }
-        &.blue{
-          background-color: $fr-blue;
-        }
-        &.yellow{
-          background-color: $fr-yellow;
-        }
-        &.green{
-          background-color: $fr-green;
-        }
+      }
+      &.light{
+        background-color: $fr-light;
+      }
+      &.dark{
+        background-color: $fr-dark;
+      }
+      &.pink{
+        background-color: $fr-pink;
+      }
+      &.blue{
+        background-color: $fr-blue;
+      }
+      &.yellow{
+        background-color: $fr-yellow;
+      }
+      &.green{
+        background-color: $fr-green;
       }
     }
   }
