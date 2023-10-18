@@ -34,8 +34,22 @@ function Settings() {
             </div>
           )}
         </div>
+        <div className="fr-settings__options-container__option purple">
+          {color === "purple" && (
+            <div className="check ">
+              <FontAwesomeIcon icon={faCheck} />
+            </div>
+          )}
+        </div>
         <div className="fr-settings__options-container__option blue">
           {color === "blue" && (
+            <div className="check ">
+              <FontAwesomeIcon icon={faCheck} />
+            </div>
+          )}
+        </div>
+        <div className="fr-settings__options-container__option green">
+          {color === "green" && (
             <div className="check ">
               <FontAwesomeIcon icon={faCheck} />
             </div>
@@ -48,8 +62,15 @@ function Settings() {
             </div>
           )}
         </div>
-        <div className="fr-settings__options-container__option green">
-          {color === "green" && (
+        <div className="fr-settings__options-container__option orange">
+          {color === "orange" && (
+            <div className="check ">
+              <FontAwesomeIcon icon={faCheck} />
+            </div>
+          )}
+        </div>
+        <div className="fr-settings__options-container__option red">
+          {color === "red" && (
             <div className="check ">
               <FontAwesomeIcon icon={faCheck} />
             </div>
