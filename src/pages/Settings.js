@@ -5,6 +5,7 @@ import { useState } from "react";
 
 function Settings() {
   const [theme, setTheme] = useState("light");
+  const [color, setColor] = useState("pink");
   return (
     <div className="fr-settings section">
       <h2>Preferred theme</h2>
@@ -27,24 +28,32 @@ function Settings() {
       <h2>Primary color</h2>
       <div className="fr-settings__options-container">
         <div className="fr-settings__options-container__option pink">
-          <div className="check">
-            <FontAwesomeIcon icon={faCheck} />
-          </div>
+          {color === "pink" && (
+            <div className="check ">
+              <FontAwesomeIcon icon={faCheck} />
+            </div>
+          )}
         </div>
         <div className="fr-settings__options-container__option blue">
-          <div className="check">
-            <FontAwesomeIcon icon={faCheck} />
-          </div>
+          {color === "blue" && (
+            <div className="check ">
+              <FontAwesomeIcon icon={faCheck} />
+            </div>
+          )}
         </div>
         <div className="fr-settings__options-container__option yellow">
-          <div className="check">
-            <FontAwesomeIcon icon={faCheck} />
-          </div>
+          {color === "yellow" && (
+            <div className="check ">
+              <FontAwesomeIcon icon={faCheck} />
+            </div>
+          )}
         </div>
         <div className="fr-settings__options-container__option green">
-          <div className="check">
-            <FontAwesomeIcon icon={faCheck} />
-          </div>
+          {color === "green" && (
+            <div className="check ">
+              <FontAwesomeIcon icon={faCheck} />
+            </div>
+          )}
         </div>
       </div>
     </div>
