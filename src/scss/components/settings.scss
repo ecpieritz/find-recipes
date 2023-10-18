@@ -10,5 +10,35 @@
     margin-bottom: 20px;
     box-shadow: 0 3px 6px $fr-shadow;
     border-left: 8px solid $fr-primary;
+
+    &__option{
+      display: flex;
+      flex-direction: row;
+      gap: 15px;
+      
+      .check{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 6px;
+        svg{
+          background-color: $fr-primary;
+          width: 15px;
+          height: 15px;
+          padding: 3px;
+          border-radius: 50%;
+        }
+
+        &.light{
+          background-color: $fr-light;
+        }
+        &.dark{
+          background-color: $fr-dark;
+        }
+      }
+    }
   }
 }

@@ -1,5 +1,7 @@
-$fr-bg: #cacaca;
-$fr-bg-lg: #ffffff;
+$fr-light: #cacaca;
+$fr-light-lg: #ffffff;
+$fr-dark: #2e2e2e;
+$fr-dark-lg: #494949;
 $fr-shadow: rgba(0, 0, 0, .2);
 $fr-pink: #ff0056;
 $fr-pink-dk: #b6023e;
@@ -14,3 +16,5 @@ $fr-text-lg: #575757;
 $fr-animation-speed: 1;
 $fr-primary: $fr-pink; 
 $fr-primary-dk: $fr-pink-dk; 
+$fr-bg: $fr-light;
+$fr-bg-lg: $fr-light-lg;
