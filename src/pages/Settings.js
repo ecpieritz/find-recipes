@@ -1,21 +1,27 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
+import { useState } from "react";
 
 function Settings() {
+  const [theme, setTheme] = useState("light");
   return (
     <div className="fr-settings section">
       <h2>Preferred theme</h2>
       <div className="fr-settings__options-container">
         <div className="fr-settings__options-container__option light">
-          <div className="check ">
-            <FontAwesomeIcon icon={faCheck} />
-          </div>
+          {theme === "light" && (
+            <div className="check ">
+              <FontAwesomeIcon icon={faCheck} />
+            </div>
+          )}
         </div>
         <div className="fr-settings__options-container__option dark">
-          <div className="check">
-            <FontAwesomeIcon icon={faCheck} />
-          </div>
+          {theme === "dark" && (
+            <div className="check ">
+              <FontAwesomeIcon icon={faCheck} />
+            </div>
+          )}
         </div>
       </div>
       <h2>Primary color</h2>
