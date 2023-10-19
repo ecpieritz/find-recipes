@@ -2,20 +2,20 @@
 
 ## 🖥 Preview
 <p align = "center">
-  <img src = "x" width = "700" height = "auto">
-  <img src = "x" width = "350" height = "auto">
-  <img src = "x" width = "350" height = "auto">
+  <img src = "https://github.com/ecpieritz/find-recipes/blob/main/public/img/fr-print__01.png?raw=true" width = "700" height = "auto">
+  <img src = "https://github.com/ecpieritz/find-recipes/blob/main/public/img/fr-print__02.png?raw=true" width = "350" height = "auto">
+  <img src = "https://github.com/ecpieritz/find-recipes/blob/main/public/img/fr-print__03.png?raw=true" width = "350" height = "auto">
 </p>
 
 ## 📖 About
-<p>Website to search for recipes to make, including step-by-step instructions. Made with react.</p>
+<p>Website to search for recipes to make. Made with react.</p>
 
 ---
 
 ## 🛠 Technologies used
 - HTML
 - React
-- Axios
+- Router
 - SCSS
 - Javascript
 - FontAwesome
