@@ -8,7 +8,6 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Recipes from "./pages/Recipes";
-import Settings from "./pages/Settings";
 
 function App() {
   const router = createBrowserRouter([
@@ -23,10 +22,6 @@ function App() {
     {
       path: "/recipes",
       element: <Recipes />,
-    },
-    {
-      path: "/settings",
-      element: <Settings />,
     },
   ]);
   return (
