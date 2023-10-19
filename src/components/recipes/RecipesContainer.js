@@ -4,28 +4,58 @@ import RecipeCard from './RecipeCard'
 function RecipesContainer() {
     const recipes = [
       {
-        name: "Receita 1",
-        desc: 'lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor ',
-        img: '/img/top-chiefs/fr-img_1.jpg',
-        link: 'https://google.com'
+        name: "Sushi",
+        desc: 'Lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor ',
+        img: '/img/recipes/fr-recipes__01.jpg',
+        link: '#!'
       },
       {
-        name: "Receita 2",
-        desc: 'lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor ',
-        img: '/img/top-chiefs/fr-img_2.jpg',
-        link: 'https://youtube.com'
+        name: "Fruit Ice Cream",
+        desc: 'Lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor ',
+        img: '/img/recipes/fr-recipes__02.jpg',
+        link: '#!'
       },
       {
-        name: "Receita 3",
-        desc: 'lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor ',
-        img: '/img/top-chiefs/fr-img_3.jpg',
-        link: 'https://intagram.com'
+        name: "Red berries cake",
+        desc: 'Lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor ',
+        img: '/img/recipes/fr-recipes__03.jpg',
+        link: '#!'
       },
       {
-        name: "Receita 4",
-        desc: 'lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor ',
-        img: '/img/top-chiefs/fr-img_4.jpg',
-        link: 'https://github.com'
+        name: "Burger",
+        desc: 'Lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor ',
+        img: '/img/recipes/fr-recipes__04.jpg',
+        link: '#!'
+      },
+      {
+        name: "Fish",
+        desc: 'Lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor ',
+        img: '/img/recipes/fr-recipes__05.jpg',
+        link: '#!'
+      },
+      {
+        name: "Pizza",
+        desc: 'Lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor ',
+        img: '/img/recipes/fr-recipes__06.jpg',
+        link: '#!'
+      },
+      {
+        name: "Spring salad",
+        desc: 'Lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor ',
+        img: '/img/recipes/fr-recipes__07.jpg',
+        link: '#!'
+      },
+      {
+        name: "Brigadeiro",
+        desc: 'Lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor ',
+        img: '/img/recipes/fr-recipes__08.jpg',
+        link: '#!'
+      },
+      {
+        name: "Chicken, broccoli and fries",
+        desc: 'Lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor ',
+        img: '/img/recipes/fr-recipes__09.jpg',
+        link: '#!'
       },
     ]
   return (
