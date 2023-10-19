@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import Sidebar from "./Sidebar";
-import { faHome, faUtensils, faCog, faMugHot } from "@fortawesome/free-solid-svg-icons";
+import { faHome, faUtensils, faMugHot } from "@fortawesome/free-solid-svg-icons";
 
 function Navbar() {
   const [showSidebar, setShowSidebar] = useState(false)
@@ -19,11 +19,6 @@ function Navbar() {
       name: 'Recipes',
       path: '/recipes',
       icon: faMugHot
-    },
-    {
-      name: 'Settings',
-      path: '/settings',
-      icon: faCog
     },
   ]
   function closeSidebar(){
